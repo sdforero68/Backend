@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: api
+    runtime: docker
+    plan: free
+    region: oregon
+    healthCheckPath: /test.php
